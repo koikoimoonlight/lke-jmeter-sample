@@ -1,0 +1,13 @@
+# 実行結果ファイルは保存しない
+out.jtl.gz
+out.jtl
+
+# kubeconfigも保存しない
+*-kubeconfig.yaml
+
+# tfstateファイルは保存しない
+*.tfstate
+*.tfstate.backup
+
+#.terraformディレクトリは保存しない
+.terraform/
