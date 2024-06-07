@@ -88,13 +88,13 @@ Kubernetesの環境で実行させる際、jmxとcsvはpod上の同じ階層に�
 なお、CSVは複数配置しても自動的にpodに転送されるようになっています。
 ファイル命名規則を実行環境向けに考慮していただく必要は特にありません。
 
-# jtlをcsvに変換する手順 how to convert jtl to csv
+# jtlをcsvに変換する手順
 
-1. {jmeterのディレクトリ}\libにcmdrunner-2.2と2.3を入れる
-http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/2.2/cmdrunner-2.2.jar
+1. {jmeterのディレクトリ}\libにcmdrunner-2.2と2.3を入れる  
+http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/2.2/cmdrunner-2.2.jar  
 http://search.maven.org/remotecontent?filepath=kg/apc/cmdrunner/2.3/cmdrunner-2.3.jar
 
-2. {jmeterのディレクトリ}\lib\extにplugin mangerを入れる
+2. {jmeterのディレクトリ}\lib\extにplugin mangerを入れる  
 https://jmeter-plugins.org/get/
 
 3. {jmeterのディレクトリ}\binで以下実行
