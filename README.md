@@ -21,7 +21,7 @@ expire=`date -d '+7 day' '+%Y-%m-%dT00:00:00'`
 linode-cli profile token-create \
   --scopes "ips:read_only linodes:read_only lke:read_write" \
   --expiry "$expire" \
-  --label perf-$today
+  --label temp-token-until-$expire
 ```
 
 1. testフォルダ内のtest.jmxにJMeterで作成したシナリオを上書きする
